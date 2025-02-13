@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projets - Amestoun Chadi</title>
+    <link rel="stylesheet" href="projet.css">
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="formation.html">Formation</a></li>
+            <li><a href="competence.html">Compétences</a></li>
+            <li><a href="projet.html">Projets</a></li>
+            <li><a href="passion.html">Passions</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <section class="projets-container">
+        <h2>Mes Projets</h2>
+        
+        <div class="projet-item">
+            <img src="images/site.png" alt="Démocratie Participative" class="projet-thumbnail">
+            <div class="projet-info">
+                <h3>Site Web de Démocratie Participative</h3>
+                <p>Une plateforme permettant aux citoyens de proposer et voter des référendums.</p>
+                <a href="#" class="btn voir-plus" onclick="openModal('modal-democratie')">Voir plus</a>
+            </div>
+        </div>
+    
+        <div class="projet-item">
+            <img src="images/rixia.png" alt="École Imaginaire" class="projet-thumbnail">
+            <div class="projet-info">
+                <h3>Site Web d'une École Imaginaire</h3>
+                <p>Un site vitrine en HTML/CSS pour présenter une école fictive.</p>
+                <a href="#" class="btn voir-plus" onclick="openModal('modal-ecole')">Voir plus</a>
+            </div>
+        </div>
+    
+        <div class="projet-item">
+            <img src="images/salon.jpg" alt="Salon d'Esthétique" class="projet-thumbnail">
+            <div class="projet-info">
+                <h3>Base de Données pour un Salon d'Esthétique</h3>
+                <p>Conception et développement d'une base de données pour gérer les clients et les prestations.</p>
+                <a href="#" class="btn voir-plus" onclick="openModal('modal-salon')">Voir plus</a>
+            </div>
+        </div>
+    
+        <div class="projet-item">
+            <img src="images/olympique.png" alt="Jeux Olympiques" class="projet-thumbnail">
+            <div class="projet-info">
+                <h3>Application Java pour les Jeux Olympiques</h3>
+                <p>Gestion des épreuves, équipes et performances des athlètes à travers une application Java.</p>
+                <a href="#" class="btn voir-plus" onclick="openModal('modal-jeux')">Voir plus</a>
+            </div>
+        </div>
+    </section>
+    
+    
+  <!-- Modales pour chaque projet -->
+  <div id="modal-democratie" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('modal-democratie')">&times;</span>
+        <h3>Site Web de Démocratie Participative</h3>
+        <p>Développement d’une plateforme permettant aux citoyens de proposer des idées et voter démocratiquement.</p>
+        <p>Ce projet vise à offrir un espace transparent et sécurisé où chacun peut s'exprimer librement et voir ses propositions être évaluées et votées.</p>
+        <p><strong>Technologies utilisées :</strong></p>
+        <ul>
+            <li><img src="logo/html.png" alt="HTML"> HTML</li>
+            <li><img src="logo/css.png" alt="CSS"> CSS</li>
+            <li><img src="logo/php.png" alt="PHP"> PHP</li>
+            <li><img src="logo/mysql.png" alt="MySQL"> MySQL</li>
+            <li><img src="logo/api.png" alt="API REST"> API REST</li>
+        </ul>
+        <p><strong>Fonctionnalités :</strong></p>
+        <ul>
+            <li>Inscription et connexion sécurisées</li>
+            <li>Création et gestion de groupes citoyens</li>
+            <li>Vote électronique sécurisé et anonyme</li>
+            <li>Notifications et suivi des décisions</li>
+        </ul>
+    </div>
+</div>
+
+<div id="modal-ecole" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('modal-ecole')">&times;</span>
+        <h3>Site Web d'une École Imaginaire</h3>
+        <p>Création d’un site vitrine en HTML/CSS pour une école fictive avec une interface moderne et intuitive.</p>
+        <p>Le projet met en avant une identité visuelle unique et une navigation fluide pour améliorer l'expérience des visiteurs.</p>
+        <p><strong>Technologies utilisées :</strong></p>
+        <ul>
+            <li><img src="logo/html.png" alt="HTML"> HTML</li>
+            <li><img src="logo/css.png" alt="CSS"> CSS</li>
+        </ul>
+        <p><strong>Fonctionnalités :</strong></p>
+        <ul>
+            <li>Présentation des cours et des enseignants</li>
+            <li>Design responsive et moderne</li>
+            <li>Section FAQ et contact</li>
+        </ul>
+    </div>
+</div>
+
+<div id="modal-salon" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('modal-salon')">&times;</span>
+        <h3>Base de Données pour un Salon d'Esthétique</h3>
+        <p>Conception et développement d'une base de données pour gérer efficacement les clients, rendez-vous et prestations d'un salon de beauté.</p>
+        <p>Le projet permet d'optimiser la gestion interne du salon et d'assurer un suivi client fluide.</p>
+        <p><strong>Technologies utilisées :</strong></p>
+        <ul>
+            <li><img src="logo/sql.png" alt="SQL"> SQL</li>
+            <li><img src="logo/mysql.png" alt="MySQL"> MySQL</li>
+        </ul>
+        <p><strong>Fonctionnalités :</strong></p>
+        <ul>
+            <li>Gestion des clients et des réservations</li>
+            <li>Suivi des prestations et des paiements</li>
+            <li>Rapports analytiques sur les services les plus demandés</li>
+        </ul>
+    </div>
+</div>
+
+<div id="modal-jeux" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('modal-jeux')">&times;</span>
+        <h3>Application Java pour les Jeux Olympiques</h3>
+        <p>Développement d'une application Java permettant de gérer les épreuves, les équipes et les performances des athlètes.</p>
+        <p>Le projet met en place une architecture bien structurée pour assurer une gestion fluide des données en lien avec les compétitions sportives.</p>
+        <p><strong>Technologies utilisées :</strong></p>
+        <ul>
+            <li><img src="logo/java.png" alt="Java"> Java</li>
+            <li><img src="logo/swing.png" alt="Swing"> Swing</li>
+        </ul>
+        <p><strong>Fonctionnalités :</strong></p>
+        <ul>
+            <li>Gestion des athlètes et des équipes</li>
+            <li>Suivi des scores et des résultats en temps réel</li>
+            <li>Génération de statistiques et de classements</li>
+        </ul>
+    </div>
+</div>
+
+
+    <footer class="footer">
+        <p>&copy; 2025 Amestoun Chadi</p>
+    </footer>
+
+    <script src="projet.js"></script>
+</body>
+</html>
