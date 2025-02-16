@@ -92,7 +92,7 @@ p {
 .btn-cv {
     display: inline-block;
     padding: 12px 20px;
-    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    background: linear-gradient(to right, #0667d6 , #0667d6 );
     color: white;
     text-decoration: none;
     border-radius: 8px;
@@ -102,7 +102,7 @@ p {
 }
 
 .btn-cv:hover {
-    background: linear-gradient(to right, #feb47b, #ff7e5f);
+    background: linear-gradient(to right, #0667d6, #0667d6);
     transform: scale(1.1);
 }
 

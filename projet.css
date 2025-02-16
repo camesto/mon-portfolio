@@ -84,21 +84,6 @@ body {
     flex: 1; /* Permet au texte de s’adapter sans pousser l'image */
 }
 
-.btn {
-    display: inline-block;
-    padding: 10px 15px;
-    background: linear-gradient(to right, #ff7e5f, #feb47b);
-    color: white;
-    text-decoration: none;
-    border-radius: 8px;
-    font-weight: bold;
-    transition: all 0.3s ease-in-out;
-}
-
-.btn:hover {
-    background: linear-gradient(to right, #feb47b, #ff7e5f);
-    transform: scale(1.05);
-}
 
 
 .projet-item img {
@@ -203,7 +188,7 @@ h2, h3 {
 }
 
 .close:hover {
-    color: #ff5733;
+    color: #0667d6;
 }
 
 /* Liste des technologies */
@@ -230,7 +215,7 @@ h2, h3 {
     display: inline-block;
     margin-top: 10px;
     padding: 12px 20px;
-    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    background: linear-gradient(to right, #0667d6, #0667d6);
     color: white;
     text-decoration: none;
     border-radius: 8px;
@@ -240,6 +225,6 @@ h2, h3 {
 }
 
 .btn:hover {
-    background: linear-gradient(to right, #feb47b, #ff7e5f);
+    background: linear-gradient(to right, #0667d6, #0667d6);
     transform: scale(1.1);
 }

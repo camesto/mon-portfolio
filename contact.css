@@ -71,7 +71,7 @@ input, textarea {
 
 button {
     padding: 12px;
-    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    background: linear-gradient(to right, #0667d6, #0667d6);
     color: white;
     border: none;
     border-radius: 8px;
@@ -81,7 +81,7 @@ button {
 }
 
 button:hover {
-    background: linear-gradient(to right, #feb47b, #ff7e5f);
+    background: linear-gradient(to right, #0667d6, #0667d6);
     transform: scale(1.05);
 }
 

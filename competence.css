@@ -17,6 +17,7 @@ body {
     left: 0;
     width: 100%;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;  /* Assurer que la navbar reste au-dessus du contenu */
 }
 
 .navbar ul {
@@ -47,7 +48,7 @@ body {
 .competences-container {
     padding: 20px;
     background: white;
-    margin: 100px auto 30px;
+    margin: 120px auto 30px; /* La marge du haut est ajustée pour mieux compenser la navbar fixe */
     width: 60%;
     max-width: 900px;
     border-radius: 15px;
@@ -57,11 +58,11 @@ body {
 }
 
 .competences-list {
-    margin-bottom: 20px;
+    margin-bottom: 30px;  /* Espacement plus grand entre les sections */
 }
 
 h2, h3 {
-    color: #1e3a5f;
+    color: #1e3a5f; /**/
 }
 
 .competence-item {
@@ -69,9 +70,9 @@ h2, h3 {
     align-items: center;
     justify-content: flex-start;
     background: #f9f9f9;
-    padding: 10px;
+    padding: 12px;
     border-radius: 8px;
-    margin: 10px auto;
+    margin: 12px auto;  /* Espacement amélioré entre les éléments */
     width: 80%;
     max-width: 600px;
     transition: transform 0.3s ease-in-out;
@@ -95,3 +96,4 @@ h2, h3 {
     font-size: 1em;
     margin-top: auto;
 }
+
